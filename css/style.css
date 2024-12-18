@@ -239,8 +239,8 @@
     height: 80%;
     top: 10%;
     left: 20%;
-    border: 1rem solid var(--light);
-    z-index: -1;
+    border: 1rem solid #FFFFFF;
+    /* z-index: -1; */
 }
 
 
@@ -455,4 +455,30 @@
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
+}
+/* new css */
+
+.navbar-nav .nav-link{
+    color: #FFFFFF!important;
+}
+.navbar-nav .nav-link:hover {
+    color: #eaa636 !important; /* Hover color (red example) */
+}
+
+.navbar-nav .nav-link.active {
+    color: #eaa636 !important; /* Active color (green example) */
+}
+.display-4 {
+    color: white;
+}
+.animated{
+    color: white;
+}
+.abt{
+    background-color: #1E1916;
+}
+
+.fact-item{
+    border: 5px solid white;
+
 }
